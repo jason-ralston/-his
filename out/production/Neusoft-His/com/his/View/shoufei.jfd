@@ -1,0 +1,56 @@
+JFDML JFormDesigner: "6.0.6.2.195" Java: "1.8.0_152-release" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {seq l {space :p:24:p, par l {seq {comp label3:::p:64:p, space :::p, comp textField2:::p:101:p, space ::288:x, comp button1:::p::p, space :p:37:p}, seq {comp textField1:::p::p, space :::p, comp label2:::p:101:p, space u:::p, comp label4:::p:50:p, space :::p, comp label5:::p:68:p, space ::267:x}}}, seq l {space :p:72:p, par l {comp label1:::p:109:p, comp scrollPane1:::p::p}, space :0:74:x}}"
+			"$verticalGroup": "par l {seq l {space :p:9:p, comp label1:::p::p, space u:::p, comp scrollPane1:::p:229:p, space :::p, par b {comp textField1::b:p::p, comp label2::b:p::p, comp label4::b:p::p, comp label5::b:p::p}, space ::17:x, par l {comp button1:::p::p, par b {comp label3::b:p::p, comp textField2::b:p::p}}, space :p:18:p}}"
+		} ) {
+			name: "this"
+			add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+				name: "scrollPane1"
+				add( new FormComponent( "javax.swing.JTable" ) {
+					name: "table1"
+				} )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label1"
+				"text": "项目明细"
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button1"
+				"text": "缴费"
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "button1MouseClicked", true ) )
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "textField1"
+				"text": "应收"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label2"
+				"text": "text"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label3"
+				"text": "实收"
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "textField2"
+				addEvent( new FormEvent( "java.awt.event.KeyListener", "keyTyped", "textField2KeyTyped", true ) )
+				addEvent( new FormEvent( "java.awt.event.KeyListener", "keyReleased", "textField2KeyReleased", true ) )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label4"
+				"text": "找零"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label5"
+				"text": "text"
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 45, 0 )
+			"size": new java.awt.Dimension( 600, 400 )
+		} )
+	}
+}

@@ -1,0 +1,395 @@
+JFDML JFormDesigner: "6.0.6.2.195" Java: "1.8.0_152-release" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {comp tabbedPane1::t:::x}"
+			"$verticalGroup": "par l {seq l {space :::p, comp tabbedPane1:::p:743:p, space ::9:x}}"
+		} ) {
+			name: "this"
+			"title": "医生"
+			add( new FormContainer( "javax.swing.JTabbedPane", new FormLayoutManager( class javax.swing.JTabbedPane ) ) {
+				name: "tabbedPane1"
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+					"$horizontalGroup": "par l {seq l {space :::p, par l {seq l {comp label9:::::x, space :::p, comp button5:::p::p}, comp scrollPane4::t:::x, seq t {comp label31:::p:63:p, space :::p, comp label32:::p:44:p, space :::x, comp button4:::p::p}, comp label10::l:::x, comp scrollPane5::t:::x}, space :::p, par t {seq l {par t {seq l {par l {comp label29::l:p:70:p, comp label30::l:p:69:p}, space :p:1:p, par l:::p {comp scrollPane6::::590:x, comp scrollPane7::::590:x}, space :::p, par l {comp button7:::p::p, comp button6:::p::p, comp button8:::p::p, comp button9:::p::p}}, seq l {par l {comp label12:::p:51:p, comp label13:::p:59:p}, space u:::p, comp textField3:::p:755:p, space :::p, comp label7:::p:141:p, space :::p, comp button11:::p::p}, seq l {comp label17:::p:60:p, space :::p, comp label1:::p:141:p, space :::p, comp label19:::p:90:p, space :::p, comp label18:::p:59:p, space :::p, comp label4:::p:46:p, space :::p, comp label20:::p:67:p, space :::p, comp label21:::p:80:p, space u:::p, comp label5:::p:44:p, space :::p, comp label22:::p:66:p, space :::p, comp label23:::p:67:p, space :p:1:p, comp label6:::p:73:p, space :::p, comp label28:::p:39:p, space :::p, comp label24:::p:82:p}, comp label27::l:p:59:p}, space :364:184:x}, seq l {comp label11:::p:140:p, space :::x, comp button1:::p:112:p, space :::p, comp button2:::p:83:p, space :::p, comp button3:::p:109:p, space :p:372:p}, seq t {par l {seq l {par l:::p {comp label26::::59:x, comp label25::::59:x}, space :p:12:p, comp textField8:::p:755:p}, par t:l {comp textField7::t:p:755:p, seq l {par l {par t {comp label14:::p:59:p, comp label15:::p:59:p}, comp label16::t:p:59:p}, space u:::p, par l:::p {comp textField5::::755:x, comp textField4::::755:x, comp textField6::::755:x}}}}, space :::p, comp scrollPane1:::p:271:p, space :0:138:x}}}}"
+					"$verticalGroup": "par l {seq l {par l {seq {space :::p, par l {par b {comp label17::b:p::p, comp label19::b:p::p, comp label18::b:p::p, comp label20::b:p::p, comp label22::b:p::p, comp label23::b:p::p, comp label24::b:p::p, comp label28::b:p::p, comp label4::b:p::p, comp label21::b:p::p, comp label5::b:p::p, comp label1::b:p::p}, comp label6:::p::p}}, seq {space :p:22:p, comp button4:::p::p}, seq l {space :::p, par b {comp label31::b:p::p, comp label32::b:p::p}}}, space :::p, par b {comp label9::b:p::p, comp label11::b:p:30:p, comp button5::b:p::p, comp button1::b:p::p, comp button2::b:p::p, comp button3::b:p::p}, space :::p, par l {seq l {comp label12:::p::p, space :5:5:p, par b {comp label13::b:p::p, comp textField3::b:p::p, comp label7::b:p::p, comp button11::b:p::p}, space :::p, par l {seq {par l {comp label14:::p::p, comp textField4:::p:42:p}, space :::p, par l {comp label15:::p:27:p, seq {comp textField5:::p:40:p, space :::p, par b {comp label16::b:p::p, comp textField6::b:p:43:p}}}, par l {seq {space :p:19:p, comp label25:::p::p}, seq {space :::p, comp textField7:::p:37:p}}, space u:::p, par l:::p {seq {space :p:11:p, comp label26:::p:38:p}, comp textField8:::p:46:p}}, comp scrollPane1:::p:235:p}, space :::p, comp label27:::p::p, par l {seq {space :p:30:p, comp label29:::p::p}, seq l {space :p:12:p, comp scrollPane6:::p:155:p}, seq l {space :p:23:p, comp button8:::p::p, space :::p, comp button7:::p::p}}, space :p:5:p, par l {comp label30:::p::p, seq {comp button6:::p::p, space :::p, comp button9:::p::p}, comp scrollPane7::::104:x}, space :p:18:p}, seq l {comp scrollPane4:::p:168:p, space :::p, comp label10:::p::p, space u:::p, comp scrollPane5:::p:311:p, space ::103:x}}}}"
+				} ) {
+					name: "panel6"
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label9"
+						"text": "未诊患者"
+					} )
+					add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+						name: "scrollPane4"
+						add( new FormComponent( "javax.swing.JList" ) {
+							name: "list4"
+						} )
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label10"
+						"text": "已诊患者"
+					} )
+					add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+						name: "scrollPane5"
+						add( new FormComponent( "javax.swing.JList" ) {
+							name: "list5"
+						} )
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label11"
+						"text": "门（急）诊病历信息"
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "button1"
+						"text": "提交"
+						addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "button1MouseClicked", true ) )
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "button2"
+						"text": "打印"
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "button3"
+						"text": "存为模板"
+						addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "button3MouseClicked", true ) )
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label12"
+						"text": "病史内容"
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label13"
+						"text": "主诉"
+					} )
+					add( new FormComponent( "javax.swing.JTextField" ) {
+						name: "textField3"
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label14"
+						"text": "现病史"
+					} )
+					add( new FormComponent( "javax.swing.JTextField" ) {
+						name: "textField4"
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label15"
+						"text": "既往史："
+					} )
+					add( new FormComponent( "javax.swing.JTextField" ) {
+						name: "textField5"
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label16"
+						"text": "个人史"
+					} )
+					add( new FormComponent( "javax.swing.JTextField" ) {
+						name: "textField6"
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label17"
+						"text": "病历号"
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label18"
+						"text": "姓名"
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label19"
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label20"
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label21"
+						"text": "性别"
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label22"
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label23"
+						"text": "年龄"
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label24"
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label25"
+						"text": "过敏史"
+					} )
+					add( new FormComponent( "javax.swing.JTextField" ) {
+						name: "textField7"
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label26"
+						"text": "体格检查"
+					} )
+					add( new FormComponent( "javax.swing.JTextField" ) {
+						name: "textField8"
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label27"
+						"text": "评估/诊断"
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label28"
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label29"
+						"text": "西医诊断"
+					} )
+					add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+						name: "scrollPane6"
+						add( new FormComponent( "javax.swing.JTable" ) {
+							name: "table1"
+						} )
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label30"
+						"text": "中医诊断"
+					} )
+					add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+						name: "scrollPane7"
+						add( new FormComponent( "javax.swing.JTable" ) {
+							name: "table2"
+						} )
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "button4"
+						"text": "更新"
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label1"
+						"text": "text"
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label4"
+						"text": "text"
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label5"
+						"text": "text"
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label6"
+						"text": "text"
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "button5"
+						"text": "确认"
+						addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "button5MouseClicked", true ) )
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "button6"
+						"text": "添加"
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "button7"
+						"text": "删除"
+						addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "button7MouseClicked", true ) )
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "button8"
+						"text": "添加"
+						addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "button8MouseClicked", true ) )
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "button9"
+						"text": "删除"
+					} )
+					add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+						name: "scrollPane1"
+						add( new FormComponent( "javax.swing.JTable" ) {
+							name: "table3"
+						} )
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label7"
+						"text": "医生模板"
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "button11"
+						"text": "套用"
+						addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "button11MouseClicked", true ) )
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label31"
+						"text": "医生"
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label32"
+						"text": "text"
+					} )
+				}, new FormLayoutConstraints( null ) {
+					"title": "诊断"
+				} )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+					"$horizontalGroup": "par l {seq {space :::p, par l {seq {par l {comp scrollPane2:::::x, seq {space :0:0:x, comp button16:::p::p}, seq {par l:::p {comp separator1:::p::p, comp scrollPane10::l::300:x, comp label3::l::300:x}, space :0:8:x}}, space :::p, par l {comp label8:::p:88:p, comp scrollPane8:::p:602:p}, space :::p, par l:::p {seq l {comp scrollPane9:::p:158:p, space :::p, comp scrollPane3::::0:x}, seq l {comp button17:::p::p, space :::p, comp button19:::p::p, space :p:156:p, comp button18:::p::p}}, space :p:122:p}, seq l {par l {seq {comp label33:::p:48:p, space :::p, comp label34:::p:79:p}, comp label2:::p:95:p}, space :p:323:p, comp label35:::p:72:p, par l {seq l {space :p:179:p, comp button12:::p::p, space :::p, comp button15:::p::p}, seq l {space :p:2:p, comp label36:::p:118:p, space :::p, comp label37:::p:71:p, space :::p, comp label38:::p:60:p, space :::p, comp label39:::p:77:p, space :::p, comp label40:::p:83:p}}, space :59:481:x}, seq {comp tabbedPane2:::p:944:p, space :0:500:x}}}}"
+					"$verticalGroup": "par l {seq t {space :::p, par l {par b:t {comp label33::b:p::p, comp label34::b:p::p}, par b:t {comp label35::b:p::p, comp label40::b:p::p, comp label39::b:p::p, comp label38::b:p::p, comp label37::b:p::p, comp label36::b:p::p}}, space :::p, par t {par b:t {comp button17::b:p::p, comp button19::b:p::p, comp button15::b:p::p, comp button12::b:p::p, comp button18::b:p::p}, seq t {comp separator1:::p:3:p, space :::p, par b {comp label8::b:p::p, comp label2::b:p:31:p, comp button16::b:p::p}}}, space :::p, par l {par t:::p {comp scrollPane9::l:::x, comp scrollPane8::l::0:x, seq l {comp scrollPane2:::p::p, space :::p, comp label3:::p::p, space :::p, comp scrollPane10:::p:154:p}}, comp scrollPane3:::p:348:p}, space u:::p, comp tabbedPane2:::p:214:p, space ::62:x}}"
+				} ) {
+					name: "panel7"
+					add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+						name: "scrollPane2"
+						add( new FormComponent( "javax.swing.JList" ) {
+							name: "list1"
+						} )
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label2"
+						"text": "已诊未开药患者"
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "button12"
+						"text": "加药"
+						addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "button12MouseClicked", true ) )
+					} )
+					add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+						name: "scrollPane8"
+						add( new FormComponent( "javax.swing.JTable" ) {
+							name: "table4"
+						} )
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label8"
+						"text": "选择药品"
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "button16"
+						"text": "选择"
+						addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "button16MouseClicked", true ) )
+					} )
+					add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+						name: "scrollPane9"
+						add( new FormComponent( "javax.swing.JList" ) {
+							name: "list3"
+						} )
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "button17"
+						"text": "增方"
+						addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "button17MouseClicked", true ) )
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "button18"
+						"text": "开立"
+						addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "button18MouseClicked", true ) )
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label33"
+						"text": "医生"
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label34"
+						"text": "text"
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label35"
+						"text": "姓名"
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label36"
+						"text": "text"
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label37"
+						"text": "性别"
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label38"
+						"text": "text"
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label39"
+						"text": "年龄"
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label40"
+						"text": "text"
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "button19"
+						"text": "存为模板"
+						addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "button19MouseClicked", true ) )
+					} )
+					add( new FormContainer( "javax.swing.JTabbedPane", new FormLayoutManager( class javax.swing.JTabbedPane ) ) {
+						name: "tabbedPane2"
+						add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+							"$horizontalGroup": "par l {seq l {space :::p, comp scrollPane11:::p:796:p, space ::142:x}, seq t {space ::860:x, comp button13:::p::p, space :::p}}"
+							"$verticalGroup": "par l {seq l {space :::p, comp scrollPane11:::p:110:p, space ::36:x, comp button13:::p::p}}"
+						} ) {
+							name: "panel1"
+							add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+								name: "scrollPane11"
+								add( new FormComponent( "javax.swing.JTable" ) {
+									name: "table6"
+								} )
+							} )
+							add( new FormComponent( "javax.swing.JButton" ) {
+								name: "button13"
+								"text": "套用"
+								addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "button13MouseClicked", true ) )
+							} )
+						}, new FormLayoutConstraints( null ) {
+							"title": "处方模板"
+						} )
+						add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+							"$horizontalGroup": "par l {seq l {space :::p, comp scrollPane12:::p:796:p, space ::142:x}, seq t {space ::860:x, comp button14:::p::p, space :::p}}"
+							"$verticalGroup": "par l {seq l {space :::p, comp scrollPane12:::p:141:p, space :::p, comp button14:::p::p, space :::x}}"
+						} ) {
+							name: "panel2"
+							add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+								name: "scrollPane12"
+								add( new FormComponent( "javax.swing.JTable" ) {
+									name: "table7"
+								} )
+							} )
+							add( new FormComponent( "javax.swing.JButton" ) {
+								name: "button14"
+								"text": "添加"
+								addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "button14MouseClicked", true ) )
+							} )
+						}, new FormLayoutConstraints( null ) {
+							"title": "常用药"
+						} )
+					} )
+					add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+						name: "scrollPane3"
+						add( new FormComponent( "javax.swing.JTable" ) {
+							name: "table5"
+						} )
+					} )
+					add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+						name: "scrollPane10"
+						add( new FormComponent( "javax.swing.JList" ) {
+							name: "list2"
+						} )
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label3"
+						"text": "已开药患者"
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "button15"
+						"text": "加入常用药"
+						addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "button15MouseClicked", true ) )
+					} )
+					add( new FormComponent( "javax.swing.JSeparator" ) {
+						name: "separator1"
+					} )
+				}, new FormLayoutConstraints( null ) {
+					"title": "开药"
+				} )
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 55, 5 )
+			"size": new java.awt.Dimension( 1440, 790 )
+		} )
+		add( new FormComponent( "javax.swing.JButton" ) {
+			name: "button10"
+			"text": "text"
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 600, 0 )
+		} )
+	}
+}

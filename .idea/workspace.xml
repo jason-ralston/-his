@@ -1,21 +1,1329 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="444" />
-    <option name="width" value="1394" />
-    <option name="height" value="1770" />
+  <component name="ChangeListManager">
+    <list default="true" id="1175632b-af15-43d4-b576-7979362a878e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/JTattoo_1_6_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/beautyeye_lnf.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/his/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/his/Model/Case.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/his/Model/Disease.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/his/Model/DiseaseList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/his/Model/Doctor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/his/Model/Employ.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/his/Model/Medicine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/his/Model/MedicineList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/his/Model/Office.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/his/Model/Patient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/his/Model/Votes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/his/View/Diagnosis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/his/View/Diagnosis.jfd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/his/View/Doctorcontrol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/his/View/Doctorcontrol.jfd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/his/View/GiveMedicine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/his/View/GiveMedicine.jfd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/his/View/guahao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/his/View/guahao.jfd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/his/View/login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/his/View/shoufei.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/his/View/shoufei.jfd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/his/dao/Dao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/his/dao/Generic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neusoft-His.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Neusoft-His.iml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Neusoft-His" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/his/View/Doctorcontrol.jfd">
+          <provider selected="true" editor-type-id="JFormDesigner">
+            <state paletteWidth="117" propertiesWidth="143" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/his/Model/Case.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="338">
+              <caret line="161" column="1" lean-forward="true" selection-start-line="161" selection-start-column="1" selection-end-line="161" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1359#1582#0" />
+                <element signature="e#3891#3892#0" expanded="true" />
+                <element signature="e#3918#3919#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/his/View/guahao.jfd">
+          <provider selected="true" editor-type-id="JFormDesigner" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/his/View/login.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1164">
+              <caret line="57" column="90" selection-start-line="57" selection-start-column="90" selection-end-line="57" selection-end-column="90" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1846#1847#0" expanded="true" />
+                <element signature="e#1880#1881#0" expanded="true" />
+                <marker date="1569115266406" expanded="false" signature="2122:7817" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
+                <marker date="1569115266406" expanded="false" signature="7829:8267" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/his/View/Doctorcontrol.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="898">
+              <caret line="413" column="41" lean-forward="true" selection-start-line="413" selection-start-column="41" selection-end-line="413" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <marker date="1569122364825" expanded="false" signature="12207:60827" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
+                <marker date="1569122364825" expanded="false" signature="63223:66235" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/his/View/login.jfd">
+          <provider selected="true" editor-type-id="JFormDesigner">
+            <state propertiesWidth="31" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/his/View/guahao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="106" column="22" selection-start-line="106" selection-start-column="22" selection-end-line="106" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#5281#5282#0" expanded="true" />
+                <element signature="e#5311#5312#0" expanded="true" />
+                <element signature="e#5941#28738#0" />
+                <marker date="1569117897218" expanded="true" signature="6006:28756" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
+                <marker date="1569117897218" expanded="false" signature="28819:30267" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/his/View/shoufei.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="233">
+              <caret line="71" column="29" selection-start-line="71" selection-start-column="29" selection-end-line="71" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#initComponents#0;class#shoufei#0" />
+                <marker date="1569117897252" expanded="true" signature="2684:8251" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
+                <marker date="1569117897252" expanded="false" signature="8263:8713" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/his/Controller.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-175">
+              <caret line="16" column="64" lean-forward="true" selection-start-line="16" selection-start-column="64" selection-end-line="16" selection-end-column="64" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#AddDisease#0;class#Controller#0" />
+                <element signature="method#SearchOffice#0;class#Controller#0" />
+                <element signature="method#SearchDisease#0;class#Controller#0" />
+                <element signature="method#SearchEmploy#0;class#Controller#0" />
+                <element signature="method#SaveList#0;class#Controller#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaFXApplication" />
+        <option value="Singleton" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/userdao/Userdao.java" />
+        <option value="$PROJECT_DIR$/src/DiseaseList.java" />
+        <option value="$PROJECT_DIR$/src/login.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_1.java" />
+        <option value="$PROJECT_DIR$/src/Case.java" />
+        <option value="$PROJECT_DIR$/src/MedicineList.java" />
+        <option value="$PROJECT_DIR$/src/login.jfd" />
+        <option value="$PROJECT_DIR$/src/Patient.java" />
+        <option value="$PROJECT_DIR$/src/Votes.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.java" />
+        <option value="$PROJECT_DIR$/src/Office.java" />
+        <option value="$PROJECT_DIR$/src/Dao.java" />
+        <option value="$PROJECT_DIR$/src/Employ.java" />
+        <option value="$PROJECT_DIR$/src/com/his/dao/Generic.java" />
+        <option value="$PROJECT_DIR$/src/Doctor.java" />
+        <option value="$PROJECT_DIR$/src/Medicine.java" />
+        <option value="$PROJECT_DIR$/src/Disease.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_2.java" />
+        <option value="$PROJECT_DIR$/src/Controller.java" />
+        <option value="$PROJECT_DIR$/src/com/his/View/DoctorView.jfd" />
+        <option value="$PROJECT_DIR$/src/com/his/Model/Employ.java" />
+        <option value="$PROJECT_DIR$/src/com/his/Model/Disease.java" />
+        <option value="$PROJECT_DIR$/src/com/his/Model/Office.java" />
+        <option value="$PROJECT_DIR$/src/com/his/View/GiveMedicine.jfd" />
+        <option value="$PROJECT_DIR$/src/com/his/Model/Case.java" />
+        <option value="$PROJECT_DIR$/src/com/his/View/shoufei.jfd" />
+        <option value="$PROJECT_DIR$/src/com/his/View/Diagnosis.java" />
+        <option value="$PROJECT_DIR$/src/com/his/View/GiveMedicine.java" />
+        <option value="$PROJECT_DIR$/src/com/his/Model/Doctor.java" />
+        <option value="$PROJECT_DIR$/src/com/his/Model/MedicineList.java" />
+        <option value="$PROJECT_DIR$/src/com/his/View/Diagnosis.jfd" />
+        <option value="$PROJECT_DIR$/src/com/his/dao/Dao.java" />
+        <option value="$PROJECT_DIR$/src/com/his/Model/Patient.java" />
+        <option value="$PROJECT_DIR$/src/com/his/View/login.java" />
+        <option value="$PROJECT_DIR$/src/com/his/View/YaoFang.java" />
+        <option value="$PROJECT_DIR$/src/com/his/Model/Medicine.java" />
+        <option value="$PROJECT_DIR$/src/com/his/View/Fayao.jfd" />
+        <option value="$PROJECT_DIR$/src/com/his/View/login.jfd" />
+        <option value="$PROJECT_DIR$/src/com/his/View/Doctorcontrol.java" />
+        <option value="$PROJECT_DIR$/src/com/his/Controller.java" />
+        <option value="$PROJECT_DIR$/src/com/his/View/guahao.jfd" />
+        <option value="$PROJECT_DIR$/src/com/his/View/shoufei.java" />
+        <option value="$PROJECT_DIR$/src/com/his/View/guahao.java" />
+        <option value="$PROJECT_DIR$/src/com/his/View/Doctorcontrol.jfd" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="-4" />
+    <option name="width" value="2746" />
+    <option name="height" value="1756" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Neusoft-His" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Neusoft-His" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Neusoft-His" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Neusoft-His" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Neusoft-His" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Neusoft-His" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="his" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Neusoft-His" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Neusoft-His" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="his" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Neusoft-His" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Neusoft-His" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="his" type="462c0819:PsiDirectoryNode" />
+              <item name="Model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Neusoft-His" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Neusoft-His" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="his" type="462c0819:PsiDirectoryNode" />
+              <item name="View" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Neusoft-His" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="Neusoft-His" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569124457074" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JAVA" />
+    <property name="last_opened_file_path" value="D:/chrome下载内容/beautyeye-3.7/beautyeye-3.7/dist/beautyeye_lnf.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\weizi\IdeaProjects\Neusoft-His\src\com\his\View" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.login">
+    <configuration name="Controller" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.his.Controller" />
+      <module name="Neusoft-His" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Diagnosis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.his.View.Diagnosis" />
+      <module name="Neusoft-His" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.his.View.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Doctorcontrol" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.his.View.Doctorcontrol" />
+      <module name="Neusoft-His" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.his.View.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="guahao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.his.View.guahao" />
+      <module name="Neusoft-His" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.his.View.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="login" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.his.View.login" />
+      <module name="Neusoft-His" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.his.View.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.guahao" />
+        <item itemvalue="Application.Doctorcontrol" />
+        <item itemvalue="Application.Diagnosis" />
+        <item itemvalue="Application.Controller" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1175632b-af15-43d4-b576-7979362a878e" name="Default Changelist" comment="" />
+      <created>1563774421688</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1563774421688</updated>
+      <workItem from="1563774425525" duration="95772000" />
+      <workItem from="1565595047209" duration="3260000" />
+      <workItem from="1566805559677" duration="6540000" />
+      <workItem from="1567147943823" duration="8562000" />
+      <workItem from="1568032120506" duration="4999000" />
+      <workItem from="1568352976812" duration="45302000" />
+      <workItem from="1568689942753" duration="4756000" />
+      <workItem from="1568715488118" duration="30795000" />
+      <workItem from="1568890556992" duration="603000" />
+      <workItem from="1568891505035" duration="13743000" />
+      <workItem from="1568947213628" duration="45428000" />
+      <workItem from="1569046438963" duration="29913000" />
+      <workItem from="1569111879964" duration="8502000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="298175000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-2" y="0" width="1373" height="878" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Designer" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" weight="0.32955405" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.20912547" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.2494331" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="2" weight="0.32891247" />
+      <window_info anchor="bottom" id="Message" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.50037795" side_tool="true" weight="0.78633404" />
+      <window_info anchor="bottom" id="Messages" order="5" weight="0.0397878" />
+      <window_info anchor="bottom" id="Database Changes" order="6" />
+      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="9" />
+      <window_info anchor="bottom" id="Run" order="10" sideWeight="0.49962208" visible="true" weight="0.04016064" />
+      <window_info anchor="bottom" id="Debug" order="11" weight="0.95983934" />
+      <window_info anchor="bottom" id="TODO" order="12" weight="0.32891247" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Database" order="1" weight="0.32955405" />
+      <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="7" weight="0.32955405" />
+      <window_info anchor="right" id="Ant Build" order="8" weight="0.2494331" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/his/Model/Doctor.java</url>
+          <line>92</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/his/View/GiveMedicine.java</url>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://D:/chrome下载内容/beautyeye-3.7/beautyeye-3.7/dist/beautyeye_lnf.jar!/org/jb2011/ninepatch4j/NinePatchChunk.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="127" selection-start-line="127" selection-end-line="127" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/chrome下载内容/beautyeye-3.7/beautyeye-3.7/dist/beautyeye_lnf.jar!/org/jb2011/ninepatch4j/NinePatch.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="81" selection-start-line="81" selection-end-line="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/chrome下载内容/beautyeye-3.7/beautyeye-3.7/dist/beautyeye_lnf.jar!/org/jb2011/lnf/beautyeye/ch3_button/BEButtonUI.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="111" selection-start-line="111" selection-end-line="111" />
+          <folding>
+            <element signature="e#8408#8409#0" expanded="true" />
+            <element signature="e#8486#8487#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/chrome下载内容/beautyeye-3.7/beautyeye-3.7/dist/beautyeye_lnf.jar!/org/jb2011/lnf/beautyeye/ch5_table/__UI__.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
+          <folding>
+            <element signature="e#3332#3333#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/chrome下载内容/beautyeye-3.7/beautyeye-3.7/dist/beautyeye_lnf.jar!/org/jb2011/lnf/beautyeye/widget/border/NinePatchBorder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="e#630#631#0" expanded="true" />
+            <element signature="e#664#665#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/chrome下载内容/beautyeye-3.7/beautyeye-3.7/dist/beautyeye_lnf.jar!/org/jb2011/lnf/beautyeye/widget/border/BERoundBorder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+          <folding>
+            <element signature="e#1156#1157#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/chrome下载内容/beautyeye-3.7/beautyeye-3.7/dist/beautyeye_lnf.jar!/org/jb2011/lnf/beautyeye/ch1_titlepane/BERootPaneUI.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="122" selection-start-line="122" selection-end-line="122" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Swing样式大全（全56种经典）/24种样式合集/trident.jar!/org/pushingpixels/trident/Timeline.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/chrome下载内容/beautyeye-3.7/beautyeye-3.7/dist/beautyeye_lnf.jar!/org/jb2011/lnf/beautyeye/ch1_titlepane/BETitlePane.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2228">
+          <caret line="567" selection-start-line="567" selection-end-line="567" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.desktop/javax/swing/JComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="1073" selection-start-line="1073" selection-end-line="1073" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/chrome下载内容/JTattoo-1.6.12.jar!/com/jtattoo/plaf/BaseTableHeaderUI.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="213" column="21" selection-start-line="213" selection-start-column="21" selection-end-line="213" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/chrome下载内容/JTattoo-1.6.12.jar!/com/jtattoo/plaf/BaseBorders.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="731" selection-start-line="731" selection-end-line="731" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/chrome下载内容/JTattoo-1.6.12.jar!/com/jtattoo/plaf/JTattooUtilities.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="254" selection-start-line="254" selection-end-line="254" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/chrome下载内容/JTattoo-1.6.12.jar!/com/jtattoo/plaf/mint/MintBorders.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="204" selection-start-line="204" selection-end-line="204" />
+          <folding>
+            <element signature="e#8029#8030#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/chrome下载内容/JTattoo-1.6.12.jar!/com/jtattoo/plaf/AbstractLookAndFeel.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="117" selection-start-line="117" selection-end-line="117" />
+          <folding>
+            <element signature="e#21597#21598#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/chrome下载内容/JTattoo-1.6.12.jar!/com/jtattoo/plaf/AbstractTheme.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="1416" selection-start-line="1416" selection-end-line="1416" />
+          <folding>
+            <element signature="e#46959#46960#0" expanded="true" />
+            <element signature="e#46999#47000#0" expanded="true" />
+            <element signature="e#54728#54729#0" expanded="true" />
+            <element signature="e#55600#55601#0" expanded="true" />
+            <element signature="e#55636#55637#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/chrome下载内容/JTattoo-1.6.12.jar!/com/jtattoo/plaf/ColorHelper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="69" selection-start-line="69" selection-end-line="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/chrome下载内容/JTattoo-1.6.12.jar!/com/jtattoo/plaf/mint/MintButtonUI.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="76" selection-start-line="76" selection-end-line="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/chrome下载内容/JTattoo-1.6.12.jar!/com/jtattoo/plaf/BaseButtonUI.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="184" selection-start-line="184" selection-end-line="184" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/chrome下载内容/JTattoo-1.6.12.jar!/com/jtattoo/plaf/BasePanelUI.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/his/Model/Doctor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="141" selection-start-line="141" selection-end-line="141" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1744#1980#0" />
+            <element signature="e#1985#2111#0" />
+            <element signature="e#2234#2602#0" />
+            <element signature="e#2607#2809#0" />
+            <element signature="e#2963#3049#0" />
+            <element signature="e#3171#3172#0" expanded="true" />
+            <element signature="e#3199#3200#0" expanded="true" />
+            <element signature="e#3476#3477#0" expanded="true" />
+            <element signature="e#3515#3516#0" expanded="true" />
+            <element signature="e#3795#3796#0" expanded="true" />
+            <element signature="e#3825#3826#0" expanded="true" />
+            <element signature="e#3999#4000#0" expanded="true" />
+            <element signature="e#4289#4290#0" expanded="true" />
+            <element signature="e#4336#4337#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.his.Model.Doctor">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.his.Model.Doctor</OriginalElement>
+          <nodes>
+            <node x="" y="">com.his.Model.Doctor</node>
+            <node x="" y="">java.io.Serializable</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.39335664335664333" x="204.0" y="608.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.his.View">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.his.View</OriginalElement>
+          <nodes>
+            <node x="" y="">com.his.View.guahao</node>
+            <node x="" y="">com.his.View.Doctorcontrol</node>
+            <node x="" y="">com.his.View.Diagnosis</node>
+            <node x="" y="">com.his.View.shoufei</node>
+            <node x="" y="">com.his.View.login</node>
+            <node x="" y="">com.his.View.GiveMedicine</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.30000000000000004" x="1940.0" y="921.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.his">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.his</OriginalElement>
+          <nodes>
+            <node x="65.19999999999999" y="159.451171875">com.his.Controller</node>
+            <node x="290.47017045454544" y="9.451171875">com.his.Model</node>
+            <node x="324.1159090909091" y="926.451171875">com.his.View</node>
+            <node x="40.0" y="9.451171875">com.his.dao</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="com.his.Model" target="com.his.Model">
+              <point x="-44.72727272727273" y="15.0" />
+              <point x="307.2428977272727" y="69.451171875" />
+              <point x="260.47017045454544" y="69.451171875" />
+              <point x="260.47017045454544" y="28.201171875" />
+              <point x="-61.5" y="3.75" />
+            </edge>
+            <edge source="com.his.Controller" target="com.his.Model">
+              <point x="2.8421709430404007E-14" y="-338.5" />
+              <point x="218.20000000000002" y="119.451171875" />
+              <point x="340.78835227272725" y="119.451171875" />
+              <point x="-11.181818181818187" y="15.0" />
+            </edge>
+            <edge source="com.his.View" target="com.his.Controller">
+              <point x="-44.80000000000001" y="-15.0" />
+              <point x="335.3159090909091" y="906.451171875" />
+              <point x="332.95" y="906.451171875" />
+              <point x="114.75" y="338.5" />
+            </edge>
+            <edge source="com.his.View" target="com.his.View">
+              <point x="0.0" y="15.0" />
+              <point x="380.1159090909091" y="986.451171875" />
+              <point x="294.1159090909091" y="986.451171875" />
+              <point x="294.1159090909091" y="941.451171875" />
+              <point x="-56.0" y="-0.0" />
+            </edge>
+            <edge source="com.his.dao" target="com.his.dao">
+              <point x="-21.600000000000023" y="15.0" />
+              <point x="72.39999999999998" y="69.451171875" />
+              <point x="10.0" y="69.451171875" />
+              <point x="10.0" y="24.451171875" />
+              <point x="-54.0" y="-0.0" />
+            </edge>
+            <edge source="com.his.View" target="com.his.Model">
+              <point x="22.399999999999977" y="-15.0" />
+              <point x="402.5159090909091" y="906.451171875" />
+              <point x="403.7" y="906.451171875" />
+              <point x="403.7" y="119.451171875" />
+              <point x="396.6974431818182" y="119.451171875" />
+              <point x="44.72727272727275" y="15.0" />
+            </edge>
+            <edge source="com.his.Controller" target="com.his.dao">
+              <point x="-122.39999999999998" y="-338.5" />
+              <point x="95.80000000000001" y="139.451171875" />
+              <point x="115.60000000000002" y="139.451171875" />
+              <point x="21.60000000000001" y="15.0" />
+            </edge>
+            <edge source="com.his.Controller" target="com.his.Controller">
+              <point x="38.25" y="338.5" />
+              <point x="256.45" y="876.451171875" />
+              <point x="25.19999999999999" y="876.451171875" />
+              <point x="25.19999999999999" y="272.28450520833337" />
+              <point x="-153.0" y="-225.66666666666663" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.816786226685796" x="147.0" y="402.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/his/Model/MedicineList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="66" column="59" selection-start-line="66" selection-start-column="59" selection-end-line="66" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#setTime#0;class#MedicineList#0" />
+            <element signature="e#1015#1016#0" expanded="true" />
+            <element signature="e#1042#1043#0" expanded="true" />
+            <element signature="e#1321#1322#0" expanded="true" />
+            <element signature="e#1348#1349#0" expanded="true" />
+            <element signature="e#1547#1548#0" expanded="true" />
+            <element signature="e#1574#1575#0" expanded="true" />
+            <element signature="e#1601#1602#0" expanded="true" />
+            <element signature="e#1669#1670#0" expanded="true" />
+            <element signature="e#1697#1698#0" expanded="true" />
+            <element signature="e#1764#1765#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/his/dao/Generic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/substance/substanceJAR包使用.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="uml://JAVA/com.his.Model">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.his.Model</OriginalElement>
+          <nodes>
+            <node x="314.16666666666674" y="426.0">com.his.Model.MedicineList</node>
+            <node x="683.3952380952383" y="1443.0">com.his.Model.Patient</node>
+            <node x="20.0" y="0.0">com.his.Model.Medicine</node>
+            <node x="426.6452380952382" y="3173.0">com.his.Model.Office</node>
+            <node x="764.7452380952382" y="2515.5">com.his.Model.Employ</node>
+            <node x="556.1391489703991" y="826.0">com.his.Model.Case</node>
+            <node x="1146.2520592020592" y="1057.5">com.his.Model.DiseaseList</node>
+            <node x="230.3952380952382" y="2320.0">com.his.Model.Doctor</node>
+            <node x="711.5523809523811" y="483.5">com.his.Model.Disease</node>
+            <node x="940.2520592020593" y="987.5">com.his.Model.Votes</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="com.his.Model.MedicineList" target="com.his.Model.Medicine">
+              <point x="-78.0" y="-155.0" />
+              <point x="392.16666666666674" y="406.0" />
+              <point x="359.0" y="406.0" />
+              <point x="113.0" y="178.0" />
+            </edge>
+            <edge source="com.his.Model.Medicine" target="com.his.Model.Medicine">
+              <point x="-188.33333333333331" y="178.0" />
+              <point x="57.666666666666686" y="376.0" />
+              <point x="0.0" y="376.0" />
+              <point x="0.0" y="178.0" />
+              <point x="-226.0" y="-0.0" />
+            </edge>
+            <edge source="com.his.Model.Doctor" target="com.his.Model.Doctor">
+              <point x="-154.5" y="396.5" />
+              <point x="281.8952380952382" y="3133.0" />
+              <point x="210.3952380952382" y="3133.0" />
+              <point x="210.3952380952382" y="2716.5" />
+              <point x="-206.0" y="-0.0" />
+            </edge>
+            <edge source="com.his.Model.Doctor" target="com.his.Model.Disease">
+              <point x="-14.714285714285722" y="-396.5" />
+              <point x="421.6809523809525" y="2270.0" />
+              <point x="467.50238095238103" y="2270.0" />
+              <point x="467.50238095238103" y="806.0" />
+              <point x="753.9809523809524" y="806.0" />
+              <point x="-56.571428571428555" y="97.5" />
+            </edge>
+            <edge source="com.his.Model.Employ" target="com.his.Model.Case">
+              <point x="29.833333333333258" y="-201.0" />
+              <point x="973.5785714285714" y="2300.0" />
+              <point x="1022.2452380952382" y="2300.0" />
+              <point x="1022.2452380952382" y="1403.0" />
+              <point x="843.2502600815102" y="1403.0" />
+              <point x="135.1111111111111" y="258.5" />
+            </edge>
+            <edge source="com.his.Model.Doctor" target="com.his.Model.Case">
+              <point x="14.714285714285666" y="-396.5" />
+              <point x="451.10952380952386" y="2280.0" />
+              <point x="481.78809523809525" y="2280.0" />
+              <point x="481.78809523809525" y="1383.0" />
+              <point x="606.8058156370657" y="1383.0" />
+              <point x="-101.33333333333337" y="258.5" />
+            </edge>
+            <edge source="com.his.Model.Patient" target="com.his.Model.Votes">
+              <point x="135.0" y="-373.5" />
+              <point x="975.8952380952383" y="1423.0" />
+              <point x="1033.2520592020592" y="1423.0" />
+              <point x="0.0" y="97.0" />
+            </edge>
+            <edge source="com.his.Model.Doctor" target="com.his.Model.Medicine">
+              <point x="-161.85714285714295" y="-396.5" />
+              <point x="274.53809523809525" y="2300.0" />
+              <point x="272.66666666666674" y="2300.0" />
+              <point x="272.66666666666674" y="396.0" />
+              <point x="208.33333333333337" y="396.0" />
+              <point x="-37.66666666666663" y="178.0" />
+            </edge>
+            <edge source="com.his.Model.DiseaseList" target="com.his.Model.Disease">
+              <point x="0.0" y="-27.0" />
+              <point x="1262.7520592020592" y="786.0" />
+              <point x="895.4095238095238" y="786.0" />
+              <point x="84.85714285714278" y="97.5" />
+            </edge>
+            <edge source="com.his.Model.Employ" target="com.his.Model.Patient">
+              <point x="-149.16666666666652" y="-201.0" />
+              <point x="794.5785714285716" y="2270.0" />
+              <point x="899.9577380952383" y="2270.0" />
+              <point x="59.0625" y="373.5" />
+            </edge>
+            <edge source="com.his.Model.Office" target="com.his.Model.Case">
+              <point x="86.25" y="-132.0" />
+              <point x="627.8952380952383" y="3153.0" />
+              <point x="652.8952380952383" y="3153.0" />
+              <point x="652.8952380952383" y="1413.0" />
+              <point x="708.1391489703991" y="1413.0" />
+              <point x="0.0" y="258.5" />
+            </edge>
+            <edge source="com.his.Model.Disease" target="com.his.Model.Disease">
+              <point x="-84.85714285714286" y="97.5" />
+              <point x="725.6952380952382" y="698.5" />
+              <point x="691.5523809523811" y="698.5" />
+              <point x="691.5523809523811" y="581.0" />
+              <point x="-99.0" y="-0.0" />
+            </edge>
+            <edge source="com.his.Model.Patient" target="com.his.Model.Case">
+              <point x="-45.0" y="-373.5" />
+              <point x="795.8952380952383" y="1423.0" />
+              <point x="809.4724823037325" y="1423.0" />
+              <point x="101.33333333333337" y="258.5" />
+            </edge>
+            <edge source="com.his.Model.Case" target="com.his.Model.Case">
+              <point x="-135.11111111111111" y="258.5" />
+              <point x="573.028037859288" y="1363.0" />
+              <point x="536.1391489703991" y="1363.0" />
+              <point x="536.1391489703991" y="1084.5" />
+              <point x="-152.0" y="-0.0" />
+            </edge>
+            <edge source="com.his.Model.Office" target="com.his.Model.Office">
+              <point x="0.0" y="132.0" />
+              <point x="541.6452380952383" y="3457.0" />
+              <point x="406.6452380952382" y="3457.0" />
+              <point x="406.6452380952382" y="3305.0" />
+              <point x="-115.0" y="-0.0" />
+            </edge>
+            <edge source="com.his.Model.Doctor" target="com.his.Model.MedicineList">
+              <point x="-73.57142857142861" y="-396.5" />
+              <point x="362.8238095238096" y="2280.0" />
+              <point x="310.1219004719005" y="2280.0" />
+              <point x="310.1219004719005" y="786.0" />
+              <point x="425.5952380952382" y="786.0" />
+              <point x="-44.571428571428555" y="155.0" />
+            </edge>
+            <edge source="com.his.Model.MedicineList" target="com.his.Model.MedicineList">
+              <point x="-133.71428571428572" y="155.0" />
+              <point x="336.452380952381" y="756.0" />
+              <point x="294.16666666666674" y="756.0" />
+              <point x="294.16666666666674" y="581.0" />
+              <point x="-156.0" y="-0.0" />
+            </edge>
+            <edge source="com.his.Model.Patient" target="com.his.Model.Disease">
+              <point x="45.0" y="-373.5" />
+              <point x="885.8952380952383" y="1423.0" />
+              <point x="906.1020592020593" y="1423.0" />
+              <point x="906.1020592020593" y="796.0" />
+              <point x="867.1238095238095" y="796.0" />
+              <point x="56.571428571428555" y="97.5" />
+            </edge>
+            <edge source="com.his.Model.Case" target="com.his.Model.MedicineList">
+              <point x="0.0" y="-258.5" />
+              <point x="708.1391489703991" y="776.0" />
+              <point x="603.8809523809524" y="776.0" />
+              <point x="133.71428571428567" y="155.0" />
+            </edge>
+            <edge source="com.his.Model.Votes" target="com.his.Model.Votes">
+              <point x="-74.39999999999998" y="97.0" />
+              <point x="958.8520592020593" y="1201.5" />
+              <point x="920.2520592020593" y="1201.5" />
+              <point x="920.2520592020593" y="1084.5" />
+              <point x="-93.0" y="-0.0" />
+            </edge>
+            <edge source="com.his.Model.Employ" target="com.his.Model.Employ">
+              <point x="0.0" y="201.0" />
+              <point x="943.7452380952382" y="2937.5" />
+              <point x="744.7452380952382" y="2937.5" />
+              <point x="744.7452380952382" y="2716.5" />
+              <point x="-179.0" y="-0.0" />
+            </edge>
+            <edge source="com.his.Model.Case" target="com.his.Model.Disease">
+              <point x="60.799999999999955" y="-258.5" />
+              <point x="768.9391489703991" y="806.0" />
+              <point x="782.2666666666667" y="806.0" />
+              <point x="-28.285714285714334" y="97.5" />
+            </edge>
+            <edge source="com.his.Model.Employ" target="com.his.Model.Votes">
+              <point x="89.5" y="-201.0" />
+              <point x="1033.2452380952382" y="2300.0" />
+              <point x="1083.5520592020594" y="2300.0" />
+              <point x="1083.5520592020594" y="1423.0" />
+              <point x="1070.4520592020594" y="1423.0" />
+              <point x="37.200000000000045" y="97.0" />
+            </edge>
+            <edge source="com.his.Model.Doctor" target="com.his.Model.Patient">
+              <point x="161.85714285714283" y="-396.5" />
+              <point x="598.252380952381" y="2250.0" />
+              <point x="821.2077380952383" y="2250.0" />
+              <point x="-19.6875" y="373.5" />
+            </edge>
+            <edge source="com.his.Model.Office" target="com.his.Model.Doctor">
+              <point x="-86.25" y="-132.0" />
+              <point x="455.3952380952382" y="3153.0" />
+              <point x="384.8952380952382" y="3153.0" />
+              <point x="-51.5" y="396.5" />
+            </edge>
+            <edge source="com.his.Model.Patient" target="com.his.Model.Patient">
+              <point x="-137.8125" y="373.5" />
+              <point x="703.0827380952383" y="2210.0" />
+              <point x="663.3952380952383" y="2210.0" />
+              <point x="663.3952380952383" y="1816.5" />
+              <point x="-157.5" y="-0.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.8428666224286661" x="265.0" y="1175.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/his/Model/Disease.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="764">
+          <caret line="39" column="1" lean-forward="true" selection-end-line="39" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/his/View/Diagnosis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#initComponents#0;class#Diagnosis#0" />
+            <marker date="1569045916089" expanded="false" signature="1703:5048" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
+            <marker date="1569045916089" expanded="false" signature="5060:5359" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/his/dao/Dao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/his/View/shoufei.jfd">
+      <provider selected="true" editor-type-id="JFormDesigner" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/his/Model/Office.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#557#558#0" expanded="true" />
+            <element signature="e#584#585#0" expanded="true" />
+            <element signature="e#1134#1135#0" expanded="true" />
+            <element signature="e#1164#1165#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/his/Model/Patient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5040">
+          <caret line="222" column="8" selection-start-line="222" selection-start-column="8" selection-end-line="222" selection-end-column="26" />
+          <folding>
+            <element signature="e#4868#4869#0" expanded="true" />
+            <element signature="e#4897#4898#0" expanded="true" />
+            <element signature="e#4934#4935#0" expanded="true" />
+            <element signature="e#4967#4968#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/his/Model/Votes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/his/View/Diagnosis.jfd">
+      <provider selected="true" editor-type-id="JFormDesigner" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/his/View/GiveMedicine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1569045916072" expanded="false" signature="1588:8825" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
+            <marker date="1569045916072" expanded="false" signature="8837:9479" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/his/Model/Medicine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="478">
+          <caret line="73" column="8" selection-start-line="73" selection-start-column="8" selection-end-line="73" selection-end-column="21" />
+          <folding>
+            <element signature="method#ToString#0;class#Medicine#0" />
+            <element signature="e#1579#1580#0" expanded="true" />
+            <element signature="e#1608#1609#0" expanded="true" />
+            <element signature="e#1640#1641#0" expanded="true" />
+            <element signature="e#1668#1669#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/文件.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="24" column="68" lean-forward="true" selection-start-line="24" selection-start-column="68" selection-end-line="24" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/his/View/YaoFang.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="770">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#243#244#0" expanded="true" />
+            <element signature="e#274#275#0" expanded="true" />
+            <element signature="e#303#304#0" expanded="true" />
+            <element signature="e#328#329#0" expanded="true" />
+            <element signature="e#376#377#0" expanded="true" />
+            <element signature="e#416#417#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/his/View/Fayao.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/his/View/Fayao.jfd">
+      <provider selected="true" editor-type-id="JFormDesigner">
+        <state propertiesWidth="64" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/his/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-175">
+          <caret line="16" column="64" lean-forward="true" selection-start-line="16" selection-start-column="64" selection-end-line="16" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#AddDisease#0;class#Controller#0" />
+            <element signature="method#SearchOffice#0;class#Controller#0" />
+            <element signature="method#SearchDisease#0;class#Controller#0" />
+            <element signature="method#SearchEmploy#0;class#Controller#0" />
+            <element signature="method#SaveList#0;class#Controller#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/his/Model/Case.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="161" column="1" lean-forward="true" selection-start-line="161" selection-start-column="1" selection-end-line="161" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1359#1582#0" />
+            <element signature="e#3891#3892#0" expanded="true" />
+            <element signature="e#3918#3919#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/his/View/login.jfd">
+      <provider selected="true" editor-type-id="JFormDesigner">
+        <state propertiesWidth="31" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/his/View/shoufei.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="71" column="29" selection-start-line="71" selection-start-column="29" selection-end-line="71" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#initComponents#0;class#shoufei#0" />
+            <marker date="1569117897252" expanded="true" signature="2684:8251" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
+            <marker date="1569117897252" expanded="false" signature="8263:8713" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/his/View/guahao.jfd">
+      <provider selected="true" editor-type-id="JFormDesigner" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/his/View/guahao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="106" column="22" selection-start-line="106" selection-start-column="22" selection-end-line="106" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#5281#5282#0" expanded="true" />
+            <element signature="e#5311#5312#0" expanded="true" />
+            <element signature="e#5941#28738#0" />
+            <marker date="1569117897218" expanded="true" signature="6006:28756" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
+            <marker date="1569117897218" expanded="false" signature="28819:30267" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/his/View/Doctorcontrol.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="898">
+          <caret line="413" column="41" lean-forward="true" selection-start-line="413" selection-start-column="41" selection-end-line="413" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1569122364825" expanded="false" signature="12207:60827" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
+            <marker date="1569122364825" expanded="false" signature="63223:66235" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/his/View/login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1164">
+          <caret line="57" column="90" selection-start-line="57" selection-start-column="90" selection-end-line="57" selection-end-column="90" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1846#1847#0" expanded="true" />
+            <element signature="e#1880#1881#0" expanded="true" />
+            <marker date="1569115266406" expanded="false" signature="2122:7817" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
+            <marker date="1569115266406" expanded="false" signature="7829:8267" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/his/View/Doctorcontrol.jfd">
+      <provider selected="true" editor-type-id="JFormDesigner">
+        <state paletteWidth="117" propertiesWidth="143" />
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
           <splitter-proportions>
@@ -39,7 +1347,31 @@
           </splitter-proportions>
         </settings>
       </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Neusoft-His</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>beautyeye_lnf</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
         <settings>
           <splitter-proportions>
             <option name="proportions">

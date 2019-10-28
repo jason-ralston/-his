@@ -1,0 +1,64 @@
+JFDML JFormDesigner: "6.0.6.2.195" Java: "1.8.0_152-release" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {seq l {space :p:41:p, par l {comp button1:::::x, comp label2::l:::x, comp label1::l:::x, comp label3::l::103:x}, space :::p, par l {comp button2::l::327:x, comp passwordField1::l::327:x, comp textField1::l::327:x, comp comboBox1::l::327:x}, space :p:121:p}, seq t {comp Welcome:::::x, space :::p}}"
+			"$verticalGroup": "par l {seq l {space :p:22:p, comp Welcome:::p:56:p, space ::88:x, par b {comp label3::b:p::p, comp comboBox1::b:p::p}, space u:::p, par l {comp label1:::p:24:p, comp textField1:::p:24:p}, space s:::p, par l:::p {comp passwordField1:::p:23:p, comp label2:::::x}, space :p:38:p, par b {comp button1::b:p::p, comp button2::b:p::p}, space :p:32:p}}"
+		} ) {
+			name: "this"
+			"title": "登陆"
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "Welcome"
+				"text": "欢迎进入东软HIS云医院管理系统"
+				"horizontalAlignment": 0
+				"font": new com.jformdesigner.model.SwingDerivedFont( null, 0, 10, false )
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button1"
+				"text": "退出"
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "button1MouseClicked", true ) )
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button2"
+				"text": "登陆"
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "button2MouseClicked", true ) )
+			} )
+			add( new FormComponent( "javax.swing.JComboBox" ) {
+				name: "comboBox1"
+				"model": new javax.swing.DefaultComboBoxModel {
+					selectedItem: "挂号员"
+					addElement( "挂号员" )
+					addElement( "医生" )
+					addElement( "药房" )
+				}
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "textField1"
+				addEvent( new FormEvent( "java.awt.event.KeyListener", "keyTyped", "textField1KeyTyped", true ) )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label1"
+				"text": "工号"
+				"horizontalAlignment": 0
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label2"
+				"text": "密码"
+				"horizontalAlignment": 0
+			} )
+			add( new FormComponent( "javax.swing.JPasswordField" ) {
+				name: "passwordField1"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label3"
+				"text": "身份"
+				"horizontalAlignment": 0
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 600, 405 )
+		} )
+	}
+}

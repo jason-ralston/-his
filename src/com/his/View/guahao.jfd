@@ -1,0 +1,199 @@
+JFDML JFormDesigner: "6.0.6.2.195" Java: "1.8.0_152-release" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {seq {space :::p, par l {seq {space :p:1043:p, comp label6:::p:73:p}, seq l {comp scrollPane1:::p:935:p, space :::p, par l {comp button2:::p::p, comp button3:::p::p}}, comp tabbedPane1::l:p:1037:p}}}"
+			"$verticalGroup": "par l {seq {comp tabbedPane1:::p:183:p, space :p:30:p, par t:::p {comp scrollPane1:::p:162:p, seq {comp button3:::p::p, space :::x, comp button2:::p::p}}, space :::p, comp label6:::p::p, space ::27:x}}"
+		} ) {
+			name: "this"
+			"title": "挂号"
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label6"
+			} )
+			add( new FormContainer( "javax.swing.JTabbedPane", new FormLayoutManager( class javax.swing.JTabbedPane ) ) {
+				name: "tabbedPane1"
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+					"$horizontalGroup": "par l {seq {space :::p, par l {seq {par l {seq {par l {seq {comp label15:::::x, space :p:11:p}, seq l {comp label4:::p:48:p, space :p:26:p}}, par l {seq l {par l {comp comboBox1::t:p:152:p, comp textField2:::p:152:p}, par l {seq l {space :::p, par t {comp label9:::p:62:p, comp label8:::p:62:p}}, seq l {space :p:10:p, comp label5:::p:36:p}}}, comp comboBox2::l:p:119:p}, space s:::p, par l {comp textField6:::p:183:p, par l:::p {comp textField4::::183:x, comp textField5::::183:x}}, space :::x}, seq {comp label3:::::x, space :p:492:p}}, par t {seq t {comp label7:::p::p, space :::p, comp textField3:::p:121:p}, seq t {par t {comp label10:::p:48:p, comp label11:::p::p}, space :p:29:p, par l:::p {comp radioButton1:::::x, comp comboBox3:::::x}}}, space :::p, par t {comp label13:::p::p, comp label14:::p::p, comp label12:::p::p}, space :::p, par l {comp comboBox4:::p::p, comp comboBox5:::p::p, comp textField7:::p:98:p}, space ::158:x}, seq l {comp label16:::p:92:p, space :::p, comp label17:::p:65:p, space ::769:x, comp button1:::p::p, space :p:21:p}}}}"
+					"$verticalGroup": "par l {seq l {space :::p, par b {comp label15::b:p::p, comp label5::b:p::p, comp textField2::b:p::p, comp comboBox4::b:p::p, comp label12::b:p::p, comp textField3::b:p::p, comp label7::b:p::p, comp textField4::b:p::p}, space :::p, par b {comp label3::b:p::p, comp comboBox1::b:p::p, comp label8::b:p::p, comp comboBox5::b:p::p, comp label13::b:p::p, comp label10::b:p::p, comp radioButton1::b:p::p, comp textField5::b:p::p}, space :::p, par b {comp label4::b:p:25:p, comp comboBox2::b:p::p, comp textField7::b:p::p, comp label14::b:p::p, comp comboBox3::b:p::p, comp label11::b:p::p, comp label9::b:p::p, comp textField6::b:p::p}, space :::x, par b {comp label16::b:p::p, comp label17::b:p::p, comp button1::b:p::p}, space :::p}}"
+				} ) {
+					name: "panel1"
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label15"
+						"text": "病历号"
+					} )
+					add( new FormComponent( "javax.swing.JTextField" ) {
+						name: "textField2"
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label3"
+						"text": "结算类别"
+					} )
+					add( new FormComponent( "javax.swing.JComboBox" ) {
+						name: "comboBox1"
+						"model": new javax.swing.DefaultComboBoxModel {
+							selectedItem: "自费"
+							addElement( "自费" )
+							addElement( "市医保" )
+						}
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label4"
+						"text": "号别"
+					} )
+					add( new FormComponent( "javax.swing.JComboBox" ) {
+						name: "comboBox2"
+						"model": new javax.swing.DefaultComboBoxModel {
+							selectedItem: "普通号"
+							addElement( "普通号" )
+							addElement( "专家号" )
+						}
+					} )
+					add( new FormComponent( "javax.swing.JTextField" ) {
+						name: "textField4"
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label5"
+						"text": "姓名"
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label8"
+						"text": "身份证号"
+					} )
+					add( new FormComponent( "javax.swing.JTextField" ) {
+						name: "textField5"
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label9"
+						"text": "地址"
+					} )
+					add( new FormComponent( "javax.swing.JTextField" ) {
+						name: "textField6"
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label7"
+						"text": "出生日期"
+					} )
+					add( new FormComponent( "javax.swing.JTextField" ) {
+						name: "textField3"
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label10"
+						"text": "病历本"
+					} )
+					add( new FormComponent( "javax.swing.JRadioButton" ) {
+						name: "radioButton1"
+						"text": "需要"
+						addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "radioButton1MouseClicked", true ) )
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label11"
+						"text": "挂号科室"
+					} )
+					add( new FormComponent( "javax.swing.JComboBox" ) {
+						name: "comboBox3"
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label16"
+						"text": "挂号员"
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label12"
+						"text": "挂号医生"
+					} )
+					add( new FormComponent( "javax.swing.JComboBox" ) {
+						name: "comboBox4"
+						addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "comboBox4MouseClicked", true ) )
+						addEvent( new FormEvent( "java.awt.event.MouseMotionListener", "mouseDragged", "comboBox4MouseDragged", true ) )
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label13"
+						"text": "收费方式"
+					} )
+					add( new FormComponent( "javax.swing.JComboBox" ) {
+						name: "comboBox5"
+						"model": new javax.swing.DefaultComboBoxModel {
+							selectedItem: "现金"
+							addElement( "现金" )
+							addElement( "刷卡" )
+							addElement( "网络支付" )
+						}
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label14"
+						"text": "性别"
+					} )
+					add( new FormComponent( "javax.swing.JTextField" ) {
+						name: "textField7"
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "button1"
+						"text": "挂号"
+						addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "button1MouseClicked", true ) )
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label17"
+						"text": "text"
+					} )
+				}, new FormLayoutConstraints( null ) {
+					"title": "挂号"
+				} )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+					"$horizontalGroup": "par l {seq l {space :::p, par t:::p {comp label18::::74:x, comp label1::::74:x}, space u:::p, par l:::p {comp label2::::109:x, comp label19::::109:x}, space :::p, comp scrollPane2:::p:591:p, space :::p, comp button4:::p::p, space ::155:x}}"
+					"$verticalGroup": "par l {seq t {space :::p, par t {seq {space :0:109:x, comp button4:::p::p}, comp scrollPane2::l::139:x, seq l {par l {comp label1:::p::p, comp label2:::p::p}, space :::p, par b {comp label18::b:p::p, comp label19::b:p::p}, space :0:99:x}}, space :::p}}"
+				} ) {
+					name: "panel2"
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label1"
+						"text": "病历号"
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label2"
+						"text": "text"
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label18"
+						"text": "姓名"
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label19"
+						"text": "text"
+					} )
+					add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+						name: "scrollPane2"
+						add( new FormComponent( "javax.swing.JTable" ) {
+							name: "table2"
+						} )
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "button4"
+						"text": "选择"
+						addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "button4MouseClicked", true ) )
+					} )
+				}, new FormLayoutConstraints( null ) {
+					"title": "缴费"
+				} )
+			} )
+			add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+				name: "scrollPane1"
+				add( new FormComponent( "javax.swing.JTable" ) {
+					name: "table1"
+				} )
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button2"
+				"text": "退号"
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "button2MouseClicked", true ) )
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button3"
+				"text": "选择"
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "button3MouseClicked", true ) )
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 95, 25 )
+			"size": new java.awt.Dimension( 1045, 440 )
+		} )
+	}
+}
